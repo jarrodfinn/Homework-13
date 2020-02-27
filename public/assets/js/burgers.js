@@ -1,4 +1,4 @@
-// Make sure we wait to attach our handlers until the DOM is fully loaded.
+
 $(function() {
   $(".change-devour").on("click", function(event) {
     var id = $(this).data("id");
@@ -26,7 +26,7 @@ $(function() {
     event.preventDefault();
 
     var newBurger = {
-      name: $("#ca").val().trim(),
+      name: $("#bu").val().trim(),
       devoured: $("[name=devoured]:checked").val().trim()
     };
 
@@ -51,7 +51,7 @@ $(function() {
       type: "DELETE"
     }).then(
       function() {
-        console.log("deleted a burger, sad.", id);
+        console.log("You got rid of a burger, sad.", id);
         // Reload the page to get the updated list
         location.reload();
       }
