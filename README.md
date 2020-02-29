@@ -25,3 +25,8 @@ This assignment must be deployed. Be sure to utilize the MYSQL Heroku Deployment
 -Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 -Your app will store every burger in a database, whether devoured or not.
 -Check out this video of the app for a run-through of how it works.
+
+
+# Submission on BCS
+
+This assignment must be deployed. * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
