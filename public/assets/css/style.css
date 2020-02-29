@@ -1,8 +1,27 @@
+/* h1 {
+color: yellow;
+}; */
+
+/* h2 {
+color: yellow;
+}; */
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #c9b506;
+  color: white;
 }
+.change-devour {
+  background-color: rgb(235, 235, 226);
+}
+
+body {
+  
+  background-image: url("../images/burgerwallpaper.jpg");
+  background-color: #cccccc;
+  font-family: Arial, Helvetica, sans-serif;
+ }
 
 .label {
   font-weight: bold;
